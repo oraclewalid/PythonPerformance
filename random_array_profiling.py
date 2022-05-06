@@ -8,7 +8,6 @@ def generate_random_array_python(size):
 def generate_random_array_numpy(size):
     return np.random.randint(low=0, high=10, size=(size,))
 
-random_array = generate_random_array_python(100) 
 
 if __name__ == "__main__":
 
